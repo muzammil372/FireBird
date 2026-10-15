@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Firebird Chicken | Crispy Fried Chicken in Karachi</title>
+  <meta name="description" content="Meet Firebird Chicken: crispy fried chicken, burgers, wings, family deals and more. Explore the menu and place your order today.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#171717">
+  <link rel="canonical" href="https://example.com/">
+  <meta property="og:title" content="Firebird Chicken | Big Crunch. Bold Flavor.">
+  <meta property="og:description" content="Crispy chicken, juicy burgers and deals made for sharing.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=1200&q=85">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Restaurant",
+    "name":"Firebird Chicken",
+    "servesCuisine":["Fried Chicken","Burgers","Fast Food"],
+    "priceRange":"PKR 400-2500",
+    "telephone":"+92-300-0000000",
+    "address":{"@type":"PostalAddress","addressLocality":"Karachi","addressCountry":"PK"},
+    "url":"https://example.com/"
+  }
+  </script>
+</head>
+<body>
+  <div class="announcement"><span>🔥</span> BIG CRUNCH. BOLD FLAVOR. <span class="announcement-right">Freshly prepared • Made to share</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Firebird Chicken home">
+      <span class="brand-mark">f<span></span></span>
+      <span class="brand-copy">FIREBIRD<small>CHICKEN & GRILL</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#menu">Our Menu</a><a href="#deals">Deals</a><a href="#about">Our Story</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-button" id="cartOpen" aria-label="Open cart">Your Order <span id="cartCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> THE CRUNCH YOU CRAVE</p>
+        <h1>CRISPY OUTSIDE.<br><em>JUICY INSIDE.</em></h1>
+        <p class="hero-desc">Golden fried chicken, loaded burgers and flavor-packed deals. Your next favorite bite starts here.</p>
+        <div class="hero-actions"><a class="btn btn-red" href="#menu">Explore Menu <span>↗</span></a><a class="text-link" href="#deals">See today's deals <span>→</span></a></div>
+        <div class="hero-proof"><div class="proof-icon">✦</div><div><strong>MADE FRESH</strong><small>Crunch in every bite</small></div><div class="proof-divider"></div><div><strong>MADE TO SHARE</strong><small>Good food, good company</small></div></div>
+      </div>
+      <div class="hero-stamp"><span>100%</span><small>CRUNCH<br>FACTOR</small></div>
+      <div class="hero-bottom">FLAVOR THAT BRINGS EVERYONE TO THE TABLE</div>
+    </section>
+
+    <section class="quick-strip">
+      <div><span class="strip-icon">♨</span><span><strong>Freshly cooked</strong><small>Made when you order</small></span></div>
+      <div><span class="strip-icon">✦</span><span><strong>Big flavor</strong><small>Seasoned to perfection</small></span></div>
+      <div><span class="strip-icon">♥</span><span><strong>Share the love</strong><small>Combos for every craving</small></span></div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="section-heading"><div><p class="eyebrow red-text">THE GOOD STUFF</p><h2>MEET YOUR <em>NEW CRAVING.</em></h2></div><p>From that first crunch to the last bite — choose your favorite.</p></div>
+      <div class="category-tabs" role="tablist" aria-label="Menu categories">
+        <button class="tab active" data-category="all">All items</button><button class="tab" data-category="chicken">Fried Chicken</button><button class="tab" data-category="burgers">Burgers</button><button class="tab" data-category="wings">Wings</button><button class="tab" data-category="deals">Deals</button>
+      </div>
+      <div class="menu-grid" id="menuGrid">
+        <article class="menu-card" data-category="chicken">
+          <div class="food-photo photo-chicken"><img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=700&q=85" alt="Golden crispy fried chicken pieces" loading="lazy"><span class="food-tag">BESTSELLER</span></div>
+          <div class="food-info"><div class="food-title"><h3>Original Crunch</h3><span class="price">Rs. 590</span></div><p>Our signature golden-crunch chicken, seasoned with a bold blend.</p><button class="add-btn" data-name="Original Crunch" data-price="590">Add to order <span>+</span></button></div>
+        </article>
+        <article class="menu-card" data-category="burgers">
+          <div class="food-photo"><img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=700&q=85" alt="Crispy chicken burger with fresh lettuce" loading="lazy"><span class="food-tag">FAN FAVORITE</span></div>
+          <div class="food-info"><div class="food-title"><h3>Firebird Zinger</h3><span class="price">Rs. 650</span></div><p>Crunchy chicken fillet, cool lettuce and our signature sauce.</p><button class="add-btn" data-name="Firebird Zinger" data-price="650">Add to order <span>+</span></button></div>
+        </article>
+        <article class="menu-card" data-category="wings">
+          <div class="food-photo"><img src="https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=700&q=85" alt="Spicy chicken wings served with dip" loading="lazy"><span class="food-tag">SPICY PICK</span></div>
+          <div class="food-info"><div class="food-title"><h3>Hot Shot Wings</h3><span class="price">Rs. 520</span></div><p>Juicy wings tossed in a fiery, tangy glaze. Napkins recommended.</p><button class="add-btn" data-name="Hot Shot Wings" data-price="520">Add to order <span>+</span></button></div>
+        </article>
+        <article class="menu-card" data-category="deals">
+          <div class="food-photo"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=85" alt="Juicy burger with fries" loading="lazy"><span class="food-tag">VALUE DEAL</span></div>
+          <div class="food-info"><div class="food-title"><h3>Solo Crave Box</h3><span class="price">Rs. 899</span></div><p>A burger, crispy fries and a chilled drink — your solo feast.</p><button class="add-btn" data-name="Solo Crave Box" data-price="899">Add to order <span>+</span></button></div>
+        </article>
+        <article class="menu-card" data-category="chicken">
+          <div class="food-photo"><img src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=700&q=85" alt="Crispy fried chicken strips with dipping sauce" loading="lazy"></div>
+          <div class="food-info"><div class="food-title"><h3>Crunch Strips</h3><span class="price">Rs. 480</span></div><p>Golden chicken strips with a creamy dip on the side.</p><button class="add-btn" data-name="Crunch Strips" data-price="480">Add to order <span>+</span></button></div>
+        </article>
+        <article class="menu-card" data-category="deals">
+          <div class="food-photo"><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=700&q=85" alt="Sharing meal served on a table" loading="lazy"><span class="food-tag">FOR THE CREW</span></div>
+          <div class="food-info"><div class="food-title"><h3>Friends Feast</h3><span class="price">Rs. 2,199</span></div><p>A shareable mix of chicken, sides and dips for the whole crew.</p><button class="add-btn" data-name="Friends Feast" data-price="2199">Add to order <span>+</span></button></div>
+        </article>
+      </div>
+      <p class="menu-note">Demo menu and prices — replace with the restaurant's real menu before launch.</p>
+    </section>
+
+    <section class="deal-banner" id="deals">
+      <div class="deal-copy"><p class="eyebrow">GOOD FOOD. BETTER DEAL.</p><h2>BRING YOUR<br><em>HUNGRY CREW.</em></h2><p>More crunch, more flavor, more to share. Build your meal from our menu.</p><a href="#menu" class="btn btn-light">Build your order <span>↗</span></a></div>
+      <div class="deal-image"><img src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=900&q=85" alt="Crispy chicken strips and dipping sauce" loading="lazy"><div class="round-label">MADE FOR<br><b>SHARING</b></div></div>
+    </section>
+
+    <section class="story section" id="about">
+      <div class="story-art"><img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=900&q=85" alt="Freshly cooked crispy chicken" loading="lazy"><div class="story-note"><span>✦</span> BOLD FLAVOR.<br>ZERO BORING BITES.</div></div>
+      <div class="story-copy"><p class="eyebrow red-text">A LITTLE ABOUT US</p><h2>WE TAKE OUR<br><em>CRUNCH SERIOUSLY.</em></h2><p>At Firebird, we believe great food brings people together. That's why every bite is made to deliver the crunch, warmth and flavor worth coming back for.</p><p>This demo is built for a local restaurant brand and can be customized with your own story, real menu, location and ordering details.</p><a href="#contact" class="text-link dark-link">Let's talk food <span>→</span></a></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div><p class="eyebrow">LET'S GET YOU FED</p><h2>YOUR NEXT BITE<br>IS WAITING.</h2></div>
+      <div class="contact-card"><p>Ready to order or ask us something? Reach out and we'll help you find your new favorite.</p><div class="contact-line"><span>📍</span> Karachi, Pakistan <small>(demo location)</small></div><div class="contact-line"><span>☎</span> +92 300 0000000 <small>(replace this number)</small></div><button class="btn btn-red" id="contactOrder">Order on WhatsApp <span>↗</span></button></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">F<span>!</span></span><span class="brand-copy">FIREBIRD<small>CHICKEN & GRILL</small></span></a><p>Big crunch. Bold flavor. Made to share.</p><div class="footer-links"><a href="#menu">Menu</a><a href="#deals">Deals</a><a href="#contact">Contact</a></div><small>© <span id="year"></span> Firebird Chicken — Demo website by Brightcode.</small></footer>
+
+  <div class="cart-backdrop" id="cartBackdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Your order" aria-hidden="true">
+    <div class="cart-head"><div><p class="eyebrow red-text">YOUR CRAVINGS</p><h2>Your Order</h2></div><button id="cartClose" class="close-btn" aria-label="Close cart">×</button></div>
+    <div class="cart-items" id="cartItems"><p class="empty-cart">Your order is looking a little empty. Add something delicious!</p></div>
+    <div class="cart-total"><span>Subtotal</span><strong id="cartTotal">Rs. 0</strong></div>
+    <p class="cart-small">Delivery charges, if any, are confirmed by the restaurant.</p>
+    <button class="btn btn-red checkout-btn" id="checkoutBtn">Send order on WhatsApp <span>↗</span></button>
+  </aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
